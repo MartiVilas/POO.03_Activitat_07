@@ -58,6 +58,7 @@ class Lampada {
     fun apagarLampada(){
         if (getEnces()){
             setEnces(false)
+            setIntensitat(0)
         }
         println("Lampada apagada")
         return println(toString())
@@ -66,6 +67,7 @@ class Lampada {
     fun encenLampada(){
         if (!getEnces()){
             setEnces(true)
+            setIntensitat(1)
         }
         println("${YELLOW_BRIGHT}Lampada encesa${RESET}")
         println()

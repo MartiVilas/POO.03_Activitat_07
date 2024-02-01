@@ -33,4 +33,39 @@ fun main() {
      * @author Martí Vilàs
      */
 
+
+    var lampada2:Lampada=Lampada(false,"",1,1)
+
+    println(lampada2)
+    lampada2.posarColor()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.posarColor()
+    println()
+    lampada2.apagarLampada()
+    println()
+    lampada2.posarColor()
+    println()
+    lampada2.encenLampada()
+    println()
+    lampada2.posarColor()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.pujarIntensitat()
+    println()
+    lampada2.pujarIntensitat()
+
+
+
+
 }
